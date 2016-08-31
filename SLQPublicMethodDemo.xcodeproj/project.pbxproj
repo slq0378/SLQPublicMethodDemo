@@ -14,6 +14,7 @@
 		E4B5D3291D766A4A000DD9AC /* SLQPublicMethodDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4B5D3271D766A4A000DD9AC /* SLQPublicMethodDemo.xcdatamodeld */; };
 		E4B5D32B1D766A4A000DD9AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B5D32A1D766A4A000DD9AC /* Assets.xcassets */; };
 		E4B5D32E1D766A4A000DD9AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B5D32C1D766A4A000DD9AC /* LaunchScreen.storyboard */; };
+		E4B5D33E1D766EC4000DD9AC /* SLQPublicMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B5D33D1D766EC4000DD9AC /* SLQPublicMethod.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		E4B5D32A1D766A4A000DD9AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4B5D32D1D766A4A000DD9AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4B5D32F1D766A4A000DD9AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4B5D33C1D766EC4000DD9AC /* SLQPublicMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLQPublicMethod.h; sourceTree = "<group>"; };
+		E4B5D33D1D766EC4000DD9AC /* SLQPublicMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLQPublicMethod.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		E4B5D31A1D766A4A000DD9AC /* SLQPublicMethodDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E4B5D33B1D766EC4000DD9AC /* SLQPublicMethod */,
 				E4B5D31E1D766A4A000DD9AC /* AppDelegate.h */,
 				E4B5D31F1D766A4A000DD9AC /* AppDelegate.m */,
 				E4B5D3211D766A4A000DD9AC /* ViewController.h */,
@@ -80,6 +84,15 @@
 				E4B5D31C1D766A4A000DD9AC /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4B5D33B1D766EC4000DD9AC /* SLQPublicMethod */ = {
+			isa = PBXGroup;
+			children = (
+				E4B5D33C1D766EC4000DD9AC /* SLQPublicMethod.h */,
+				E4B5D33D1D766EC4000DD9AC /* SLQPublicMethod.m */,
+			);
+			path = SLQPublicMethod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4B5D3231D766A4A000DD9AC /* ViewController.m in Sources */,
+				E4B5D33E1D766EC4000DD9AC /* SLQPublicMethod.m in Sources */,
 				E4B5D3201D766A4A000DD9AC /* AppDelegate.m in Sources */,
 				E4B5D3291D766A4A000DD9AC /* SLQPublicMethodDemo.xcdatamodeld in Sources */,
 				E4B5D31D1D766A4A000DD9AC /* main.m in Sources */,
@@ -304,6 +318,7 @@
 				E4B5D3341D766A4A000DD9AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
